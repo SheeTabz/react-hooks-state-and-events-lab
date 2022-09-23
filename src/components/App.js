@@ -15,11 +15,11 @@ const[isColor, setColor] = useState(false)
     <div className={appClass}>
       <header>
         <h2>Shopster</h2>
-        <button onClick = {changeTheme}>{isColor ? "Dark" : "Light"}</button>
+        <button onClick = {changeTheme}> {isColor ? "Dark Mode" : "Light Mode"}</button>
       </header>
       <ShoppingList items={itemData} />
     </div>
   );
-}
+} 
 
 export default App;
